@@ -1,0 +1,105 @@
+/* Mid Section(Landing Page) - Pranit Jogwe */
+
+/* Part 1- Mid Section Features Deatils */
+
+    /* Main */
+    .midsection__corefeatures, .midSection__victoryStories{   /*Both Part-1 & 2 same css*/
+        width: 70%;
+        margin: 30px auto;
+        padding:40px 10px;
+        
+    }
+
+    .midsection__corefeatures{ 
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        justify-content: center;
+    }
+    /*Main-Feature */
+    .midsection__corefeatures_headerinfo, .midSection__victoryStories_info {  /*Both Part-1 & 2 same css*/
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+
+    .midsection__corefeatures_headerinfo  h1, .midSection__victoryStories_info h1 {  /*Both Part-1 & 2 same css*/
+        width: 70%; 
+        color:rgb(21,21,21);
+        margin:0 auto;
+        font-size: 45px;
+        font-weight: 900;
+    }
+
+    .midsection__corefeatures_features{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+        justify-content: space-around;
+        padding: 20px 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .midsection__corefeatures_features div{
+        width: 30%;
+    }
+
+
+    .midsection__corefeatures_features p, .midSection__victoryStories_info p{  /*Both Part-1 & 2 same css*/
+        font-size: 16px;
+        width: 70%; 
+        margin: auto;
+        line-height: 1.5;
+    }
+
+
+    /*Main- Link Button */
+    .midsection__corefeatures_link{
+        width: fit-content;
+        margin: auto; 
+    }
+
+
+
+    .midsection__corefeatures_link > button{
+        height: 50px;
+        width: 300px;
+        background-color: rgb(0,102,238);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .midsection__corefeatures_link > button > span{
+        color:rgb(255,255,255);
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+/* Part-2 Mid Section - Victory Stories */
+
+    /* Main */
+    .midSection__victoryStories_cards{
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+        box-shadow:0 0 14px 2px rgba(0,0,0, .31);
+        padding: 20px 0px;
+        margin: 30px auto;
+    }
+
+    .midSection__victoryStories_cards--story{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .midSection__victoryStories_cards img{
+        padding-left: 20px;
+    }
+
+
+   
