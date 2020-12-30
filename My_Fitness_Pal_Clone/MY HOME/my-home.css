@@ -326,15 +326,45 @@ a, a:link, a:visited {
     .modal-content {
         background-color: #fefefe;
         margin: 5% auto; /* 15% from the top and centered */
-        padding: 20px;
-        display: grid;
-        height: 300px;
-        grid-row: 80% 20%;
-        gap: 10px;
-        grid-column: auto auto auto auto auto auto ;
+        border: 1px solid black;
         border: 1px solid #888;
         width: 30%; /* Could be more or less, depending on screen size */
     }
+
+    .modal-content__grid1{
+        display: grid;  
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 50px;
+        align-items: center;
+        background-color:rgb(0,114,188);
+        color: rgb(255,233,229); 
+    }
+
+    .modal-content__grid2{
+        display: grid;
+        grid-template-columns:90% 10%;
+        grid-template-rows: repeat(5, 50px);
+        padding: 5px 0;
+    }
+
+    .modal-content__grid2 p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .modal-content__grid2 span{
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .modal-content__grid2 hr{
+        width: 100%;
+        margin-left: 10px;
+        background-color: rgbargb(255,255,255)
+    }
+
     
     /* The Close Button */
     .close {
