@@ -1,4 +1,4 @@
-*{
+ *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -280,10 +280,6 @@ a, a:link, a:visited {
 
 
         /* My home Blog -- Pranit Jogwe */
-
-        .myhome__blog{
-
-        }
 
         .blog__content{
             display: flex;
