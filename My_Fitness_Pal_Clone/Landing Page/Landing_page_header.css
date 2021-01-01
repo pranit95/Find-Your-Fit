@@ -1,0 +1,215 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    margin: 0px;
+}
+
+            /* top_nav_bar */
+
+
+.top_nav_bar{
+    display: flex;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid silver;
+}   
+.top_nav_bar_contents{
+    border: 1px solid rgb(212, 209, 209);
+}
+.top_nav_bar_contents  > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 10px 0px 10px ;
+
+}
+.top_nav_bar_contents > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 10px 0px 10px ;
+}
+
+             /* logo_header */
+.header_wrap{
+    width:90%;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+#logo{
+    width: 229px;
+    position: relative;
+   margin-left: 150px;
+    margin-right: 280px;
+}
+   
+.header_content > a:hover{
+    color: orange;
+    cursor: pointer;
+    text-decoration: none;
+} 
+.header_content{
+    margin-right: 200px;
+
+}
+.header_content > a{
+    font-size: 14px;
+    color: #0072BC;
+    padding-left:10px ;
+    padding-right: 10px;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    text-decoration: none;
+}
+
+              /* Blue_header_navigation_bar */
+
+.header__navigation_bar{
+    width: 100%;
+    background-color: #0072BF;
+    /* margin-top: 15px; */
+    min-height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header__navigation_bar > a{
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF ;
+    padding: 0 35px;
+    display: block;
+}
+
+
+                   /* blue_navigation_sub_bar */
+
+
+.header__navggation_sub_bar{
+    min-height: 45px;
+    width: 100%;
+    background-color: #00548F;
+    display: flex;
+    padding-left: 280px;
+}
+.header__navggation_sub_bar > a{
+    color: #e6e6e6;
+    display: block;
+    font-weight: normal;
+    padding: 0px 12px;
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+}
+
+                           /* first_section_css */
+
+
+.shoes_image{
+    position: relative;
+}
+.pearls_image{
+    position: absolute;
+    top: 960px;
+}
+.avacado_image{
+    position: absolute;
+    top: 1050px;
+}
+.shoes_image_text{
+    
+    position: relative;
+    top: -600px;
+    left: 300px;
+}
+.shoes_image_text > h1{
+    font-weight: 900;
+    line-height: 1.04;
+    margin-bottom: 0.40em;
+    font-size: 3.6058rem;
+    max-width: 7.6em;
+}
+.shoes_image_text > p{
+    max-width: 21em;
+    font-size: 1rem;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+.shoes_image_text > button{
+    font-size: 0.9375rem;
+    color: #FFF;
+    background-color: #0066EE;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    line-height: 1.75;
+    max-width: 300px;
+    
+    padding: 12px 68px;
+    font-weight: 700;
+}
+.shoes_image_text_login_text > p{
+    font-size: 1rem;
+    line-height: 1.88em;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    font-weight: 400;
+}
+.perls_image_text {
+    position:absolute;
+    top: 980px;
+    left: 450px;
+   
+}
+.perls_image_text > h2{
+    font-weight: 900;
+    line-height: 1.08;
+    font-size: 2.7778rem;
+    margin-top: 4rem;
+    width: 12em;
+    color: #212121;
+}
+.perls_image_text > p{
+    width: 32em;
+    min-width: 20em;
+    font-size: 1rem;
+    line-height: 1.88em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.perls_image_input > input{
+    position: relative;
+    height: 4em;
+    padding-left: 2em;
+    font-size: 1.25rem;
+    color: #1a1111;
+    border-radius: 43px;
+    width: 100%;
+    line-height: 1.15;
+    border: 2px solid silver;
+    /* padding: 1px 2px; */
+}
+.search_button{
+    position: absolute;
+    top: 340px;
+    left: 480px;
+   
+}
+
