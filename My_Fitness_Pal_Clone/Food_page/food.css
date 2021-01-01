@@ -1,0 +1,249 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+a:hover{
+    color: orange;
+}
+
+.food{
+    position: relative;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+        /* food_first_block */
+
+
+.food_firstDiv{
+   
+    border-bottom: 3px solid #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 3px 0 7px;
+}
+.food_firstDiv > h1 {
+    margin-top: 20px;
+    color: #0B5680;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.button_prev{
+    background-color:  #00548F;
+    border-radius: 4px;
+}
+.food_firstDiv > button_prev img{
+    width: 100%;
+    height: 100%;
+}
+.food__firstDiv__date{
+    background: #00548F;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 2px 0 2px;
+    padding: 17px 55px 2px 55px;
+    position: relative;
+    border-radius: 5px;
+}
+table{
+    box-sizing: border-box;
+    border-color: grey;
+}
+
+.headings{
+    width: 50%;
+}
+.bottom{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e6e6e6;
+    margin-right: 400px;
+}
+.line{
+    margin-right: 500px;
+     padding-bottom: 10px;
+    border-bottom: 3px solid #e6e6e6;
+}
+
+.td_first{
+    width: 50%;
+    color: #00548F;
+    font-size: 18px;
+    font-weight: bold;
+   
+    text-align: left;
+    padding: 15px 0 10px 0;
+    
+}
+.td_first_column{
+    background: #00548F;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+.bottom_td{
+    font-size: 13px;
+    color: #0072BF;
+    padding-left: 7px;
+    padding-right: 9px;
+    border-right: solid 1px #0f73ab;
+    margin-right: 7px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.total_container{
+    display: flex;
+    margin-left: 400px;
+    flex-direction: column;
+}
+.total_container > div{
+    display: flex;
+    color: #222222;
+    
+}
+.total_value{
+    border-right: 1px solid#e6e6e6;
+    border-bottom: 1px solid#e6e6e6;;
+    padding: 0px 15px;
+    margin: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+.table_total{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.total_text{
+   border-right: 1px solid#e6e6e6;
+   border-bottom: 1px solid#e6e6e6;;
+    padding: 0px 15px;
+    margin: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.finish_text{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.complete_entry_button{
+    font-size: 13px;
+    display: inline-block;
+    border: 1px solid #408140;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background-color: #51a351;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+.water_consumption{
+    width: 1000px;
+    margin-left: 300px;
+    display: flex;
+    border: 1px solid silver;
+    padding: 20px;
+   margin-top: 20px;
+}
+.water_consumption__left_container div > h3{
+   color: #00548F;
+    margin-top: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 .7em;
+}
+.water_consumption__left_container {
+    width: 700px;
+   
+}
+.water_consumption_button{
+    font-size: 13px;
+    display: inline-block;
+    border: 1px solid #408140;
+    border-radius: 5px;
+    padding: 1px 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    background-color: #51a351;
+    margin-left: 30px;
+    
+}
+#waternotes{
+    background-color: #f6f6f6;
+    border: 1px solid #e6e6e6;
+    padding: 12px;
+    line-height: 14px;
+}
+#main_calender{
+    position: absolute;
+    left: 37%;
+    top: -1%;
+    z-index: 1;
+}
+#main_calender table {
+    border-collapse: collapse;
+  }
+
+#main_calender  td,th {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+  }
+
+#main_calender th {
+    font-weight: bold;
+    background-color: #E6E6E6;
+  }
+
+  .food_info_table{
+    margin-left: 0px;
+}
+.food_info_td{
+    padding: 0px 0px 20px 20px;
+    font-size: 13px;
+    font-weight:bold;
+    text-align: center;
+}
+.food_info_first_td{
+    width: 40px;
+    padding: 0px 220px 20px 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.food_info_second_td{
+    padding: 0px 0px 20px 10px;
+    width: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.food_info_third_td{
+    padding: 0px 0px 10px 20px;
+    width: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+
