@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.landing_bottom{
+    width: 60%;
+    margin: auto;
+}
+
+.headings{
+    text-align: center;
+}
+.headings p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.recipes{
+    width: 32%;
+    height: 330px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px silver;
+    transition: all 1s;
+
+}
+.recipes:hover{
+    transform: scale(1.1);
+}
+.recipes img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    
+}
+
+.recipes h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.recipes a{
+    text-decoration: none;
+    color: rgb(12, 12, 216);
+    font-weight: bold;
+    margin-bottom: 105px;
+    margin-left: 20px;
+}
+
+/* ended content part */
+
+
+.mid_part{
+    margin: auto;
+    text-align: center;
+}
+
+.mid_part h1{
+    font-weight: bolder;
+}
+
+.mid_part p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.mid_part img{
+    margin-top: 30px;
+    width: 500px;
+}
+
+
+
+.apps img{
+    width: 150px;
+    transition: 1s all;
+}
+
+.apps img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(192, 192, 192, 0.255);
+}
+
+.footer .inline{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 35px;
+    padding-top: 10px;
+    height: 35px;
+}
+.footer p{
+    margin-left: 15px;
+}
+
+.about{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-left: 550px;
+    
+    
+    
+}
+
+.about a{
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    /* padding-top: 150px  ; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.about a:hover{
+    color: orangered;
+}
+
+.about select{
+    width: 150px;
+    background: none;
+    background-color: rgb(240, 207, 207);
+    height: 25px;
+    margin: 20px;
+    margin-right: 5px;
+    font-size: 15px;
+    /* margin-left: 0px; */
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+    
