@@ -13,7 +13,6 @@
     .midsection__corefeatures{ 
         display: flex;
         flex-direction: column;
-        background-color: aliceblue;
         justify-content: center;
     }
     /*Main-Feature */
