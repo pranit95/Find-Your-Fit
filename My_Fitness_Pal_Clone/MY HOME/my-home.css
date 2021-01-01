@@ -199,10 +199,33 @@ a, a:link, a:visited {
             width: 100%;
         }
 
-        .myhome__left_dailySummary_content--right-btnUpdate button{
-            width: 20%;
+        .myhome__left_dailySummary_content--right-btnUpdate a{
+            width: auto;
+            line-height: 1.5em;
+            text-decoration: none;
+            font-size: 13px;
+            display: inline-block;
+            border: 1px solid #d2d2d2;
+            border-radius: 5px;
+            padding: 8px 25px;
+            text-align: center;
+            cursor: pointer;
+            color: #666666;
+            background-color: #ebebeb;
+            margin-left: 20px;
+            margin-right: 0;
+            box-sizing: border-box;
         }
         
+
+        /* Calory Value Calculation */
+        .calculation-table{
+            width: 100%;
+        }
+
+        .calculation-table th{
+            font-weight: 300;
+        }
         
         /* Part -2 Email Verification */
 
@@ -299,6 +322,7 @@ a, a:link, a:visited {
         .myhome__blog{
             width: 100%;
             border: 1px solid #F2F2F2;
+            margin-top:20px;
 
         }
       
@@ -307,15 +331,16 @@ a, a:link, a:visited {
             display: flex;
             flex-direction: column;
             width:100%;
+            margin-left: 10px;
         }
 
-        .myhome__blog_photo img{
+        /* .myhome__blog_photo> img{
             height: 60px;
             width: 60px;
             position: relative;
             left:-70px;
             box-sizing: border-box;
-        }
+        } */
 
         .blog__content_heading{
             display: flex;
@@ -333,12 +358,23 @@ a, a:link, a:visited {
         }
 
         .write__comment{
+            display: flex;
             background-color:rgb(246,246,246);
-            width: 100%;
             padding-top: 10px;
             padding-bottom: 10px;
+        }
+
+
+        /* left bottom start*/
+        .myblog__emaillink{
+            width: 100%;
+            border: 1px solid #F2F2F2;
+            margin-top:20px;
+            height: 150px;
 
         }
+
+
 
     /* The Modal (background) */
     .modal {
@@ -396,6 +432,16 @@ a, a:link, a:visited {
         margin-left: 10px;
         background-color: rgbargb(255,255,255)
     }
+
+    #myhome-link p:hover, #myhome-link :hover {
+        color:  #0072BC;
+    }
+
+    /* .modal-content__grid2-remain  p:hover{
+        color:  #0072BC;
+    } */
+
+    
 
     
     /* The Close Button */

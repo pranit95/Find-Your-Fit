@@ -106,8 +106,8 @@
                     <div class="myhome__left_dailySummary_content--left">
                        <div class="myhome__left_dailySummary_content--left-photo">
                             <p style="font-size: 12px;">No photo provided</p>
-                            <p>
-                                <a href="./My Photo/my-photo.html" style="color: rgb(0, 114, 188);font-size: 12px; text-decoration: none;">Upload photo</a>
+                            <p style="margin: auto; width: fit-content;">
+                                <a href="./My Photo/my-photo.html" style="color: rgb(0, 114, 188);font-size: 12px; text-decoration: none; ">  Upload photo</a>
                             </p>
                        </div>
                     </div>
@@ -123,12 +123,14 @@
                                         <span style="margin: 0;" class="close">&times;</span>
                                     </div>
                                     <div class="modal-content__grid2">
-                                        <div>
-                                            <p>Calories Remaining</p>
-                                            <span>Food calories, exercise calories and calories remaining</span>
+                                        <div class="modal-content__grid2-remain">
+                                            <a id="myhome-link" href="./my-home.html" style="color: black;">
+                                                <p>Calories Remaining</p>
+                                                <span>Food calories, exercise calories and calories remaining</span>
+                                            </a>
                                             <hr>
                                         </div>
-                                        <div></div>
+                                        <div><i class="fa fa-check" style="font-size:20px;color: #0072BC;"></i></div>
                                         <div>
                                             <p>Macronutrients Remaining</p>
                                             <span>Carbohydrates, fat, proteins and calories remaining </span>
@@ -159,10 +161,29 @@
                             </div>
                         <div class="myhome__left_dailySummary_content--right-btnUpdate">
                             <div style="font-size:30px; color: rgb(133,196,0); font-weight: 700;">1500</div>
-                            <button>Add Exercise</button>
-                            <button>Add Food</button>
+                            <a>Add Exercise</a>
+                            <a>Add Food</a>
                         </div>
-                        <div></div>
+                        <div class="calculation-table">
+                            <table style="width: 100%; text-align: left;" >
+                                <thead  style=" font-size: 20px;color: #666;margin-bottom: 2px;letter-spacing: 1px">
+                                    <th >1500</th>
+                                    <th> 0 </th>
+                                    <th> - </th>
+                                    <th> 0 </th>
+                                    <th> = </th>
+                                    <th> 0 </th>
+                                </thead>
+                                <tbody style="font-size: 14px;line-height: 16px; color: #999999;">
+                                    <td> Goal </td>
+                                    <td> Food </td>
+                                    <td></td>
+                                    <td> Exercise </td>
+                                    <td></td>
+                                    <td> NET </td>
+                                </tbody>
+                            </table>
+                        </div>
                         <div></div>
                         <div></div>
                     </div>
@@ -201,6 +222,7 @@
             </div>
             <div class="myhome__blog" id="myhome__blog">
         <!-- Blog is added using the javascript -->
+                
             </div>
         </div>
         <div class="myhome__right">
@@ -248,7 +270,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
