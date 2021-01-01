@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Audiowide', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.top_nav_bar{
+    display: flex;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid silver;
+}   
+.top_nav_bar_contents{
+    border: 1px solid rgb(212, 209, 209);
+}
+.top_nav_bar_contents a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 10px 0px 10px ;
+}
+
+             /* logo_header */
+.header_wrap{
+    width: 950px;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#logo{
+    width: 229px;
+    position: relative;
+   margin-left: 400px;
+    margin-right: 280px;
+}
+    
+a, a:link, a:visited {
+    color: #0072BC;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header_wrap_content{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.header_wrap_content > a{
+    margin-top: 10px;
+   margin-left: 20px;
+}
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+.message{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+.header_wrap_content img{
+    height: 100%;
+    width: 100%;
+}
+.header_content{
+   display: flex;
+   
+}
+.header_wrap_content div , a , p{
+    margin-right:10px ;
+}
+
+              /* Blue_header_navigation_bar */
+
+.header__navigation_bar{
+    width: 100%;
+    background-color: #0072BF;
+    /* margin-top: 15px; */
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__navigation_bar > a{
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF ;
+    padding: 0 21px;
+    display: block;
+}
+
+
+                   /* blue_navigation_sub_bar */
+
+
+.header__navggation_sub_bar{
+    min-height: 45px;
+    width: 100%;
+    background-color: #00548F;
+    display: flex;
+    padding-left: 280px;
+}
+.header__navggation_sub_bar > a{
+    color: #e6e6e6;
+    display: block;
+    font-weight: normal;
+    padding: 0px 12px;
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+}
+
+
+
+
+/* ----------------------header ended----------------------------------------------------- */
+
+.main{
+
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+   
+    /* text-align: center; */
+}
+
+.main h1{
+    color: rgba(0, 60, 255, 0.755);
+}
+
+
+.content{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(192, 192, 192, 0.159);
+    box-shadow: 3px 3px 10px silver;
+}
+
+.content .email{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content .email input{
+    width: 250px;
+    height: 25px;
+    padding-left: 05px;
+    border: none;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: inset 2px 2px 10px rgba(128, 128, 128, 0.508);
+}
+
+.content .email button{
+    width: 100px;
+    height: 23px;
+    border: none;
+    background-color: rgba(223, 218, 218, 0.713);
+    border: 1px solid rgba(128, 128, 128, 0.467);
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 10px rgba(128, 128, 128, 0.261);
+}
+
+.content .section1 .first{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 165px;
+}
+
+.content .section2 .first{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 88px;
+}
+
+.content .section3 .first{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 130px;
+}
+
+.content .section3 .second{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+.content .section1 .first input ,
+.first label {
+    margin-left: 5px;
+}
+
+.content .section2 .first input , .content .section3 .first input,
+.content .section3 .second input  {
+    margin-left: 5px;
+}
+.content .section1 , .content .section2 , .content .section3{
+    line-height: 30px;
+}
+
+.content .section1 label , .content .section2 label,
+.content .section3 label{
+    word-spacing: 3px;
+}
+
+.content .section1 .set , .content .section2 .set{
+    margin-left: 413px;
+}
+
+
+    .main .submit{
+        width: 120px;
+        height: 30px;
+        background: none;
+        border: none;
+        border: 1px solid grey;
+        background-color: rgba(15, 192, 6, 0.85);
+        justify-content: center;
+        margin-top: 25px ;
+        margin-left: 45%;
+        /* margin-bottom: 30px; */
+        border: 1px solid grey;
+        border-radius: 5px;
+        color: wheat;
+    }
+/* ------------------------------main ended--------------- */
+
+.footer{
+    background-color: #f0eeee;
+    padding: 50px;
+    margin-top: 30px;
+}
+.footer_upper_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer_upper_content > a{
+    color: #0072BC;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer_lower_content{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_lower_content > a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+        
+
+
+
+
