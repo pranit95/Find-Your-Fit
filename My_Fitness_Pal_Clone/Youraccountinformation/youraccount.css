@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Audiowide', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 100%;
+
+}
+.header .content{
+    display: flex;
+    justify-content: space-around;
+}
+.header .content img{
+    width: 350px;
+}
+
+.header .content h3{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(0, 60, 255);
+    
+}
+
+.header .underline{
+    width: 75%;
+    height: 3px;
+    background-color: rgb(21, 87, 255);
+    box-shadow: 2px 2px 10px blue;
+    margin: auto;
+}
+
+/* --------ended header part-------- */
+
+
+.main{
+    width: 45%;
+    border: 1px solid rgba(128, 128, 128, 0.522);
+    margin: auto;
+    margin-top: 55px;
+    background-color: rgba(230, 226, 226, 0.371);
+    box-shadow: 2px 2px 10px rgba(192, 192, 192, 0.789);
+    transition: all 0.5s;
+    border-radius: 10px;
+   
+
+}
+
+.content{
+    margin-left: 55px;
+    transition: all 0.5s;
+}
+
+
+.content h1{
+    margin-top: 35px;
+    color: rgba(6, 58, 155, 0.734);
+}
+
+.content form{
+    margin-top: 30px;
+    margin-left: 45px;
+    transition: all 0.5s;
+}
+
+.content  form label{
+    color: rgba(0, 0, 0, 0.33);
+}
+.content form input{
+    height: 28px;
+    margin: 10px;
+    width: 230px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    box-shadow: inset 2px 2px 10px rgba(192, 192, 192, 0.213);
+    /* color: rgba(0, 0, 0, 0); */
+}
+
+.content form input:focus{
+    outline: none;
+}
+
+.content form .pass{
+    margin-left: 30px;
+}
+
+.content button{
+    height: 30px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-left: 105px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(30, 168, 30, 0.679);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.content button:hover{
+    transform: scale(1.1);
+}
+
+.content .fb{
+    background-color: rgba(15, 58, 226, 0.741);
+    height: 35px;
+}
+
+
+
+/* ------------------------------------------ */
+
+
+.content_end{
+    width: 70%;
+    height: 90px;
+    line-height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.419);
+    box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.439);
+    background-color: rgba(255, 255, 255, 0.57);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    transition: all 0.5s;
+}
+
+.content_end:hover{
+    transform: scale(1.1);
+}
+
+.content_end i{
+    color: black;
+    margin-right: 20px;
+    transition: all 0.5s;
+    /* animation: l 0.5s infinite forwards; */
+}
+
+
+.content_end a{
+    text-decoration: none;
+    color: rgba(8, 99, 196, 0.713);
+    font-weight: bold;
+}
