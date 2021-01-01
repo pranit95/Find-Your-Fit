@@ -100,6 +100,10 @@ font-family: 'Ubuntu', sans-serif;
     transition: all 0.5s;
     cursor: pointer;
 }
+.content button a{
+    text-decoration: none;
+    color: white;
+}
 
 .content button:hover{
     transform: scale(1.1);
