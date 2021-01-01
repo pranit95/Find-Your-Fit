@@ -1,0 +1,241 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+            /* top_nav_bar */
+
+body{
+    margin: 0;
+}
+.top_nav_bar{
+    display: flex;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid silver;
+}   
+.top_nav_bar_contents{
+    border: 1px solid rgb(212, 209, 209);
+}
+.top_nav_bar_contents a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 10px 0px 10px ;
+}
+
+             /* logo_header */
+.header_wrap{
+    width: 950px;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#logo{
+    width: 229px;
+    position: relative;
+   margin-left: 400px;
+    margin-right: 280px;
+}
+    
+a, a:link, a:visited {
+    color: #0072BC;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header_wrap_content{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.header_wrap_content > a{
+    margin-top: 10px;
+   margin-left: 20px;
+}
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+.message{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+.header_wrap_content img{
+    height: 100%;
+    width: 100%;
+}
+.header_content{
+   display: flex;
+   
+}
+.header_wrap_content div , a , p{
+    margin-right:10px ;
+}
+
+              /* Blue_header_navigation_bar */
+
+.header__navigation_bar{
+    width: 100%;
+    background-color: #0072BF;
+    /* margin-top: 15px; */
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__navigation_bar > a{
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF ;
+    padding: 0 21px;
+    display: block;
+}
+
+
+                   /* blue_navigation_sub_bar */
+
+
+.header__navggation_sub_bar{
+    min-height: 45px;
+    width: 100%;
+    background-color: #00548F;
+    display: flex;
+}
+
+
+.header__navggation_sub_bar > a{
+    color: #e6e6e6;
+    display: block;
+    font-weight: normal;
+    padding: 0px 12px;
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+}
+
+/* Pranit Jogwe */
+
+.myphoto__page{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.myphoto__page_heading{
+    text-align: left;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    line-height: normal;
+    color: #0a5282;
+    font-weight: bolder;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.myphoto__page_box{
+    background-color: rgb(247,247,247);
+    height: 330px;
+    padding: 28px 0 22px;
+    color: #222;
+    display: flex;
+    width: 100%;
+}
+.myphoto__page_box-left{
+    width: 35%;
+    margin-left: 2.5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5em;
+}
+
+.myphoto__page_box-right{
+    font-size:12px ;
+    line-height: 1.5em;
+    width: 50%;
+    margin-left: 2.5%;
+}
+
+.myphoto__page_box-right-chosefile{
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.button-upload{
+    border:1px solid #408140;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #51a351;
+    font-size: 13px;
+    color: #FFFFFF;
+    height: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    width: 100px;
+    margin-bottom: 15px ;
+}
+
+.myphoto__page_bottom{
+    display: flex;
+    align-items: center;
+    line-height: 1.5em;
+    cursor: default;
+    text-align: left;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    outline: 0;
+    background-color: #0a5282;
+    height: 40px;
+    width: 95%;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Footer starts*/
+.footer{
+    background-color: #f0eeee;
+    padding: 50px;
+    margin-top: 100px;
+}
+.footer_upper_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer_upper_content > a{
+    color: #0072BC;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer_lower_content{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_lower_content > a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+/* Footer ends */
