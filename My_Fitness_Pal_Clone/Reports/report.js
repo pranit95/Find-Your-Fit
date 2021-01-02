@@ -38,7 +38,7 @@ var myLineChart = new Chart(ctx, {
 
                 pointHitRadius: 10,
 
-                data: [0,0,0,0,0,52,52,52,52],
+                data: [0,0,0,0,0,52,52,52,52,53,54,55],
 
             }
 
@@ -46,3 +46,9 @@ var myLineChart = new Chart(ctx, {
 });
 
 
+
+window.addEventListener('load' , () => {
+    var user_info = JSON.parse(localStorage.getItem("user_info"))||[];
+    console.log(user_info)
+    document.getElementById("user_name").innerHTML = user_info[0].name
+})

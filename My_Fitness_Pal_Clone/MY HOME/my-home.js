@@ -105,3 +105,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+window.addEventListener('load' , () => {
+  var user_info = JSON.parse(localStorage.getItem("user_info"))||[];
+  console.log(user_info)
+  document.getElementById("user_name").innerHTML = user_info[0].name
+})

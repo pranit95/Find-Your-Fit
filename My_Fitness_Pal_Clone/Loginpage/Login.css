@@ -1,110 +1,135 @@
-body{
-   padding: 0;
-   margin: 0;
-   background-color: rgb(250, 244, 244); 
-}
+
 
 
 .container{
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* height: 100vh; */
     font-weight: bold;
     
    
 }
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    margin: 0px;
+}
 
-.header_1{
-    width: 100%;
-    height: 35px;
-    border: 1px solid black;
+            /* top_nav_bar */
+
+
+.top_nav_bar{
     display: flex;
-    margin-top: 5px;
-    background-color: silver;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid silver;
+}   
+.top_nav_bar_contents{
+    border: 1px solid rgb(212, 209, 209);
 }
-
-
-.header_1 img{
-    width: 25px;
-}
-
-.header_1 a{
+.top_nav_bar_contents  > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #222;
     text-decoration: none;
-    color: blue;
-    width: 200px;
-    height: 25px;
-    border-right: 1px solid black;
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.097);
- 
-}
-.header_1 a:nth-child(1){
-    font-weight: bold;
-}
-
-/* ------------------------- */
-
-.header_2 {
-    width: 50%;
-    margin: auto;
     display: flex;
-    /* justify-content: baseline; */
-    align-items: baseline;
+    padding: 0px 10px 0px 10px ;
+
+}
+.top_nav_bar_contents > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    padding: 0px 10px 0px 10px ;
+}
+
+             /* logo_header */
+.header_wrap{
+    width:90%;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
 }
-.header_2 h1{
-    color: rgb(18, 18, 214);
+#logo{
+    width: 229px;
+    position: relative;
+   margin-left: 150px;
+    margin-right: 280px;
 }
-
-.header_2 a{
-    font-size: 20px;
-    padding-top: -20px;  
-    margin-left: 25px;
+   
+.header_content > a:hover{
+    color: orange;
+    cursor: pointer;
     text-decoration: none;
-    color: blue;
+} 
+.header_content{
+    margin-right: 200px;
+
 }
-.header_2 img {
-    width: 35px;
-    margin-right: 15px;
-    color: blue;
-    
+.header_content > a{
+    font-size: 14px;
+    color: #0072BC;
+    padding-left:10px ;
+    padding-right: 10px;
+    font-weight: 400;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    text-decoration: none;
 }
 
-/* ----------------------- */
+              /* Blue_header_navigation_bar */
 
-.header_3{
+.header__navigation_bar{
     width: 100%;
-    height: 40px;
-    
-    background-color: blue;
-}
-.header_3 ul{
+    background-color: #0072BF;
+    /* margin-top: 15px; */
+    min-height: 45px;
     display: flex;
-    list-style: none;
-    align-items: baseline;
-    margin: auto;
-    text-align: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-
-
-.header_3 ul li{
-    margin-left: 70px;
-    padding-top: 10px;
-    color: white;
+.header__navigation_bar > a{
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
     font-weight: bold;
-    
+    color: #FFFFFF ;
+    padding: 0 35px;
+    display: block;
 }
-.header_3 ul li:nth-child(1){
-    margin-left: 0;
+
+
+                   /* blue_navigation_sub_bar */
+
+
+.header__navggation_sub_bar{
+    min-height: 45px;
+    width: 100%;
+    background-color: #00548F;
+    display: flex;
 }
+.header__navggation_sub_bar > a{
+    color: #e6e6e6;
+    display: block;
+    font-weight: normal;
+    padding: 0px 12px;
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 13px;
+}
+
 /* ------------------------------------- */
 
 .member_login {
-    width: 18%;
+    width: 20%;
     /* border: 1px solid black; */
     padding-left: 25px;
     margin-left: -105px;
