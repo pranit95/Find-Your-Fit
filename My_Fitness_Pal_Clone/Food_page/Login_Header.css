@@ -112,7 +112,6 @@ a, a:link, a:visited {
     width: 100%;
     background-color: #00548F;
     display: flex;
-    padding-left: 280px;
 }
 .header__navggation_sub_bar > a{
     color: #e6e6e6;

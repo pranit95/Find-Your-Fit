@@ -4,6 +4,7 @@
 }
 body{
     margin: 0px;
+    width: 100%;
 }
 
             /* top_nav_bar */
@@ -12,24 +13,17 @@ body{
 .top_nav_bar{
     display: flex;
     padding-left: 10px;
+    height: 39px;
+    align-items: center;
     background-color: #f0f0f0;
     border: 1px solid silver;
 }   
 .top_nav_bar_contents{
-    border: 1px solid rgb(212, 209, 209);
+    border-right:  1px solid rgb(212, 209, 209);
 }
-.top_nav_bar_contents  > a{
+.top_nav_bar_contents a, p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color: #222;
-    text-decoration: none;
-    display: flex;
-    padding: 0px 10px 0px 10px ;
-
-}
-.top_nav_bar_contents > p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #222;
     text-decoration: none;
     display: flex;
@@ -38,39 +32,62 @@ body{
 
              /* logo_header */
 .header_wrap{
-    width:90%;
-    margin-left: 100px;
-    position: relative;
+    width: 100%;
+    /* margin-left: 100px; */
+    /* position: relative; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content:left; */
     align-items: center;
-    flex-wrap: wrap;
+    /* gap: 4%; */
    
 }
 #logo{
-    width: 229px;
-    position: relative;
-   margin-left: 150px;
-    margin-right: 280px;
+    width:60%;
+    margin-left: 10%;
+    /* position: relative; */
+   /* margin-left: 10%;
+    margin-right: 280px; */
 }
-   
-.header_content > a:hover{
-    color: orange;
+    
+a, a:link, a:visited {
+    color: #0072BC;
     cursor: pointer;
     text-decoration: none;
-} 
-.header_content{
-    margin-right: 200px;
-
 }
-.header_content > a{
-    font-size: 14px;
-    color: #0072BC;
-    padding-left:10px ;
-    padding-right: 10px;
-    font-weight: 400;
-    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
-    text-decoration: none;
+.header_wrap_content{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.header_wrap_content > a{
+    margin-top: 10px;
+   margin-left: 20px;
+}
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+.message{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+.header_wrap_content img{
+    height: 100%;
+    width: 100%;
+}
+.header_content{
+   display: flex;
+   width:20% ;
+   justify-content: left;
+   
+   
+}
+.header_wrap_content div , a , p{
+    margin-right:10px ;
 }
 
               /* Blue_header_navigation_bar */
@@ -81,7 +98,6 @@ body{
     /* margin-top: 15px; */
     min-height: 45px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -91,7 +107,7 @@ body{
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF ;
-    padding: 0 35px;
+    padding: 0 21px;
     display: block;
 }
 
@@ -104,7 +120,6 @@ body{
     width: 100%;
     background-color: #00548F;
     display: flex;
-    padding-left: 280px;
 }
 .header__navggation_sub_bar > a{
     color: #e6e6e6;
@@ -124,17 +139,17 @@ body{
 }
 .pearls_image{
     position: absolute;
-    top: 960px;
+    top: 957px;
 }
 .avacado_image{
     position: absolute;
-    top: 1050px;
+    top: 1250px;
 }
 .shoes_image_text{
-    
+    width: fit-content;
     position: relative;
     top: -600px;
-    left: 300px;
+    left: 200px;
 }
 .shoes_image_text > h1{
     font-weight: 900;
@@ -174,7 +189,10 @@ body{
 .perls_image_text {
     position:absolute;
     top: 980px;
-    left: 450px;
+    width: 60%;
+    margin: auto;
+    left: 20%;
+    
    
 }
 .perls_image_text > h2{
@@ -182,11 +200,13 @@ body{
     line-height: 1.08;
     font-size: 2.7778rem;
     margin-top: 4rem;
-    width: 12em;
+    
+    text-align: center;
     color: #212121;
 }
 .perls_image_text > p{
-    width: 32em;
+    width:32em;
+    margin: auto;
     min-width: 20em;
     font-size: 1rem;
     line-height: 1.88em;
@@ -208,8 +228,9 @@ body{
 }
 .search_button{
     position: absolute;
-    top: 340px;
-    left: 480px;
+    
+    right: 50px;
+    bottom: 2em;
    
 }
 
