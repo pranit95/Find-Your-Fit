@@ -1,12 +1,13 @@
 # Find-Your-Fit
 
+We have Cloned a fitnees tracking website called MyFitnessPal.
 MyFitnessPal is a company developing a platform for keeping a food diary. 
 The platform enables users to browse the food database and recipes, track calories with both the web version and mobile apps. 
 
 In this project , we have tried make a perfect clone of myfitnesspal.com.
 
 ## Technologies used
-	* HTML
+  *HTML
   * CSS
   * JavaScript
 
@@ -33,8 +34,8 @@ We have tried our best to give mostly all the functionality available on the act
 ### Contributors:
 
 * Archana Singh
-  * Github : [archana-sing]
+  * Github : [archana-sing](https://github.com/archana-sing)
 * Pranit Jogwe
-  * Github : [pranit95]
+  * Github : [pranit95](https://github.com/pranit95)
 * Narsimhulu Vasam
-  * Github : [Narsimhuluv]
+  * Github : [Narsimhuluv](https://github.com/Narasimhuluv)
