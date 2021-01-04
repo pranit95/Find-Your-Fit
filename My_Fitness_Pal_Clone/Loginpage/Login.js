@@ -20,7 +20,7 @@
                 prompt("fill")
             }
         }
-        .addEventListener("onsubmit",validation)
+        // .addEventListener("onsubmit",validation)
 
         // var fbbtn = document.getElementById('fb')
 
