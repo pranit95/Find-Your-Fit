@@ -46,9 +46,9 @@ var myLineChart = new Chart(ctx, {
 });
 
 
-
 window.addEventListener('load' , () => {
     var user_info = JSON.parse(localStorage.getItem("user_info"))||[];
     console.log(user_info)
-    document.getElementById("user_name").innerHTML = user_info[0].name
-})
+    document.getElementById("user_name").innerHTML = user_info[user_info.length - 1].name
+  
+  })

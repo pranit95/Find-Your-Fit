@@ -5,7 +5,7 @@ document.getElementById("add_exercise").addEventListener("click" , function(){
     <div style="display: flex;padding-left : 60px;font-size : 15px ; font-weight : bold ;"><p style="text-align: center;">Adding:<p>${document.getElementById("exercise_input").value}</p></p></div>
     <div style="display: flex;padding-left : 60px;"><p>How Long ?</p><input type="text" id="how_long"/></div>
     <div style="display: flex;padding-left : 60px;"><p>Calories Burned : </p><input type="text" id="calories_burned"/></div>
-    <p>If you know how many calories you burned(eg: froem a machine at<br/> the gym), manually enter that value above</p>
+    <p style="margin-left:20px">If you know how many calories you burned(eg: from a machine at<br/> the gym), manually enter that value above</p>
     <button class="search_exercise_button" id="exercise_added">ADD EXERCISE</button>
     </div>`
     
@@ -20,4 +20,9 @@ document.getElementById("add_exercise").addEventListener("click" , function(){
     })
 })
 
-
+window.addEventListener('load' , () => {
+    var user_info = JSON.parse(localStorage.getItem("user_info"))||[];
+    console.log(user_info)
+    document.getElementById("user_name").innerHTML = user_info[user_info.length - 1].name
+  
+  })

@@ -1,20 +1,10 @@
-
-
-
-.container{
-    width: 100%;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* height: 100vh; */
-    font-weight: bold;
-    
-   
-}
 *{
     font-family: Arial, Helvetica, sans-serif;
     
 }
 body{
     margin: 0px;
+    width: 100%;
 }
 
             /* top_nav_bar */
@@ -23,24 +13,17 @@ body{
 .top_nav_bar{
     display: flex;
     padding-left: 10px;
+    height: 39px;
+    align-items: center;
     background-color: #f0f0f0;
     border: 1px solid silver;
 }   
 .top_nav_bar_contents{
-    border: 1px solid rgb(212, 209, 209);
+    border-right:  1px solid rgb(212, 209, 209);
 }
-.top_nav_bar_contents  > a{
+.top_nav_bar_contents a, p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color: #222;
-    text-decoration: none;
-    display: flex;
-    padding: 0px 10px 0px 10px ;
-
-}
-.top_nav_bar_contents > p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #222;
     text-decoration: none;
     display: flex;
@@ -49,39 +32,62 @@ body{
 
              /* logo_header */
 .header_wrap{
-    width:90%;
-    margin-left: 100px;
-    position: relative;
+    width: 100%;
+    /* margin-left: 100px; */
+    /* position: relative; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content:left; */
     align-items: center;
-    flex-wrap: wrap;
+    /* gap: 4%; */
    
 }
 #logo{
-    width: 229px;
-    position: relative;
-   margin-left: 150px;
-    margin-right: 280px;
+    width:60%;
+    margin-left: 10%;
+    /* position: relative; */
+   /* margin-left: 10%;
+    margin-right: 280px; */
 }
-   
-.header_content > a:hover{
-    color: orange;
+    
+a, a:link, a:visited {
+    color: #0072BC;
     cursor: pointer;
     text-decoration: none;
-} 
-.header_content{
-    margin-right: 200px;
-
 }
-.header_content > a{
-    font-size: 14px;
-    color: #0072BC;
-    padding-left:10px ;
-    padding-right: 10px;
-    font-weight: 400;
-    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
-    text-decoration: none;
+.header_wrap_content{
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.header_wrap_content > a{
+    margin-top: 10px;
+   margin-left: 20px;
+}
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+.message{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+.header_wrap_content img{
+    height: 100%;
+    width: 100%;
+}
+.header_content{
+   display: flex;
+   width:20% ;
+   justify-content: left;
+   
+   
+}
+.header_wrap_content div , a , p{
+    margin-right:10px ;
 }
 
               /* Blue_header_navigation_bar */
@@ -92,7 +98,6 @@ body{
     /* margin-top: 15px; */
     min-height: 45px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -102,7 +107,7 @@ body{
     font-size: 13px;
     font-weight: bold;
     color: #FFFFFF ;
-    padding: 0 35px;
+    padding: 0 21px;
     display: block;
 }
 
@@ -129,21 +134,25 @@ body{
 /* ------------------------------------- */
 
 .member_login {
-    width: 20%;
+    width: 30%;
     /* border: 1px solid black; */
-    padding-left: 25px;
-    margin-left: -105px;
-    margin: 10px auto;
+    margin:  auto;
+    
 
 }
 form{
     margin: 0px;
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.556);
-    box-shadow: 5px 5px 10px silver;
+    
     padding-left: 25px;
     border-radius: 10px;
     margin: 20px auto;
+    background: none;
+    padding: 20px 40px;
+    border: 3px solid #f3f1f1;
+    border-radius: 1em;
+    width: 234px;
+    margin-top: 30px;
 
 }
 
@@ -153,22 +162,20 @@ form h3{
 form label{
     font-size: 20px;
 }
-form input{
-    width: 90%;
-    height: 28px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: silver;
-    border: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    background: linear-gradient(145deg, #9db0bbb6, #bad2df6b);
-    box-shadow:  20px 20px 60px #94a7b136;
-             /* -20px -20px 60px #c8e1ef; */
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 10px;
+.login_input{
+    width: 96%;
+    height: 30px;
+    background: none;
+    margin:5px 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #b2b2b2;
+    border-right: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #f2f2f2;
+    outline: none;
+    box-shadow: inset;
+    box-shadow: inset 1px 0 1px #d9d9d9, inset -1px 0 1px #d9d9d9, inset 0 1px 1px #b2b2b2;
 }
-
 form input:focus{
     border: none;
 }
@@ -190,11 +197,15 @@ form .Checkbox{
  margin-top: 15px;
 }
 
-button{
-    width: 92%;
-    height: 40px;
+#signup{
+    width: 95%;
+    height: 30px;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CCCCCC; 
+    border: 1px solid #999999;
+    color: #666;
+    cursor: pointer; background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#CCCCCC), to(#f0f0f0));
 }
 
 .underline {
@@ -234,6 +245,7 @@ button{
  }  */
 
 
+
  .authentication a{
      font-size: 12px;
      text-decoration: none;
@@ -242,45 +254,31 @@ button{
 
  /* ---------------------------- */
 
- .bottom{
-     width: 100%;
-     height: 150px;
-     background-color: rgba(167, 160, 147, 0.652);
-     display: flex;
- }
-
- .bottom small{
-     font-weight: bold;
- }
- .about{
-     
-     margin: auto;
+ .footer{
+    background-color: #f0eeee;
+    padding: 50px;
+    margin-top: 100px;
+}
+.footer_upper_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer_upper_content > a{
+    color: #0072BC;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer_lower_content{
     text-align: center;
-     
- }
-
- .about a{
-     margin-left: 20px;
-     font-size: 15px;
-     text-decoration: none;
-     font-weight: bold;
- }
-
- select{
-     width: 130px;
-     height: 25px;
-     margin-top: 20px;
-     margin-right: 15px;
-     font-family: 'Montserrat', sans-serif;
-    
- }
-
-
-
-
-
-
-
-
-
-
+    margin-top: 10px;
+}
+.footer_lower_content > a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
