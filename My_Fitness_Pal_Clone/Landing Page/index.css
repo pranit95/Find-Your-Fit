@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
     
 }
 body{
@@ -139,11 +139,11 @@ a, a:link, a:visited {
 }
 .pearls_image{
     position: absolute;
-    top: 957px;
+    top: 914px;
 }
 .avacado_image{
     position: absolute;
-    top: 1250px;
+    top: 1210px;
 }
 .shoes_image_text{
     width: fit-content;
