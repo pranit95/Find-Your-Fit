@@ -94,11 +94,12 @@ body{
     font-weight: bold;
 }
 #adding{
-    
+    width: fit-content;
     background: #f6f6f6;
-    padding: 3px;
+    padding: 20px;
     font-size: 14px;
     font-weight: 400;
+    margin-top : 20px;
 }
 #adding > p , div >p{
     color: #222222;
